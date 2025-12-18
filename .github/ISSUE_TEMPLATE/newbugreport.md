@@ -25,14 +25,14 @@ body:
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
-    Validations:
+    validations:
       required: true
   - type: dropdown
     id: version
     attributes:
       label: Version
       description: What version of your software are you running?
-      option:
+      options:
         - 1.0.2 (Default)
         - 1.0.3 (Edge)
       default: 0
@@ -45,7 +45,7 @@ body:
       multiple: true
       options:
         - Firefox
-        - chrome
+        - Chrome
         - Safari
         - Microsoft Edge
   - type: textarea
@@ -58,7 +58,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct ] (https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct] (https://example.com)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
