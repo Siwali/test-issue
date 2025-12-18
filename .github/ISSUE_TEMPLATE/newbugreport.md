@@ -1,6 +1,7 @@
 ---
 name: newBugReport
 description: File a bug report
+about: Report a bug to help us improve
 title: "[Bug]: "
 labels: ["bug","triage"]
 assignees:
